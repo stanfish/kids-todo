@@ -266,7 +266,7 @@ function KidTaskPageContent() {
                   {kid.name}'s Tasks
                 </h1>
               </div>
-              <p className="text-lg text-gray-600">
+              <p className="text-2xl text-gray-600">
                 {formatDate(selectedDate)}
               </p>
             </div>

@@ -266,15 +266,9 @@ function UndatedTasksPageContent() {
             <div className="text-center py-12">
               <div className="text-6xl mb-4">📝</div>
               <h3 className="text-lg font-medium text-gray-900 mb-2">No general tasks yet</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600">
                 Tasks without due dates will appear here. Add your first general task to get started!
               </p>
-              <Button
-                variant="fun-green"
-                onClick={() => setIsAddTaskModalOpen(true)}
-              >
-                Add Your First Task
-              </Button>
             </div>
           ) : (
             <motion.div
